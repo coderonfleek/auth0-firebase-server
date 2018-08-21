@@ -1,0 +1,5 @@
+#Check in the folder but do not push its contents to a github repo
+#ensures that Git will ignore any files and folders inside the firebase directory except for the .gitignore file itself
+*
+*/
+!.gitignore
